@@ -27,7 +27,7 @@ import com.google.gson.Gson;
 
 public class RestaurantMenuActivity extends AppCompatActivity {
 
-    private String url = "https://api.myjson.com/bins/yxhb3";
+    private String url = "https://raw.githubusercontent.com/ashrafulais/kothay_khaben/master/data/restaurant_details.json";
     private RecyclerView recyclerView;
     private FoodMenuAdapter myAdapter;
     private List<MyItem> foodItems = new ArrayList<>();

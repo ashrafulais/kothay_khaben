@@ -33,13 +33,14 @@ public class RestaurantListActivity extends AppCompatActivity {
     //previous: https://api.myjson.com/bins/d412n
     //updated with menus and ratings: https://api.myjson.com/bins/udlm7
 
-    private String url = "https://api.myjson.com/bins/yxhb3";
+    private String url = "https://raw.githubusercontent.com/ashrafulais/kothay_khaben/master/data/restaurant_details.json";
     private RecyclerView recyclerView;
     private MyAdapter myAdapter;
     private List<MyItem> listItems;
     private ProgressDialog progressDialogue;
 
     private String placeName2;
+    private boolean clicked=false;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -54,26 +55,17 @@ public class RestaurantListActivity extends AppCompatActivity {
 
         loadData();
 
-
         //recycler view item click
         recyclerView.addOnItemTouchListener(new RecyclerSetOnItemClickListener(this, new RecyclerSetOnItemClickListener.OnItemClickListener() {
             @Override
             public void onItemClick(View view, final int position) {
                 String name = listItems.get(position).getResId();
-                final String socialLink = listItems.get(position).getResLink();
-
-                Button button = (Button) findViewById(R.id.resSocialLinkBtn);
-                button.setOnClickListener(new View.OnClickListener(){
-                    @Override
-                    //On click function
-                    public void onClick(View view) {
-                        startActivity(new Intent(Intent.ACTION_VIEW, Uri.parse(socialLink)));
-                    }
-                });
+                //final String socialLink = listItems.get(position).getResLink();
 
                 Intent intentTour = new Intent(RestaurantListActivity.this, RestaurantMenuActivity.class);
                 intentTour.putExtra("RESTAURANT_ID", name);
                 startActivity(intentTour);
+
             }
         }));
     }
