@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/khaben_bg"
+    tools:context=".HomepageActivity">
+
+    <View
+        android:id="@+id/placenameView"
+        android:layout_width="424dp"
+        android:layout_height="269dp"
+        android:background="@drawable/rectangle"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.538"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <FrameLayout
+        android:id="@+id/frameBackView"
+        android:layout_width="424dp"
+        android:layout_height="290dp"
+        android:layout_marginEnd="4dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="@+id/placenameView"
+        app:layout_constraintTop_toTopOf="parent"></FrameLayout>
+
+    <ImageView
+        android:id="@+id/homeLogo"
+        android:layout_width="67dp"
+        android:layout_height="28dp"
+        android:layout_marginBottom="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:contentDescription="@android:string/untitled"
+        app:layout_constraintBottom_toBottomOf="@+id/placenameView"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.501"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/placenameView"
+        app:layout_constraintVertical_bias="0.111"
+        app:srcCompat="@drawable/khaben_logo" />
+
+    <ImageView
+        android:id="@+id/homeTextName"
+        android:layout_width="299dp"
+        android:layout_height="32dp"
+        android:contentDescription="@string/app_name"
+        app:layout_constraintBottom_toBottomOf="@+id/placenameView"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.508"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/placenameView"
+        app:layout_constraintVertical_bias="0.339"
+        app:srcCompat="@drawable/kothay_khaben_text" />
+
+    <EditText
+        android:id="@+id/areaName"
+        android:layout_width="281dp"
+        android:layout_height="38dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="24dp"
+        android:layout_marginEnd="24dp"
+        android:layout_marginBottom="18dp"
+        android:background="@drawable/round_edit_text"
+        android:ems="10"
+        android:fontFamily="@font/varela"
+        android:hint="@string/areaname"
+        android:inputType="textPersonName"
+        android:padding="5dp"
+        android:selectAllOnFocus="true"
+        android:singleLine="false"
+        android:textAlignment="center"
+        android:textColor="@android:color/black"
+        android:textColorHint="#846A88"
+        android:textSize="15sp"
+        app:layout_constraintBottom_toBottomOf="@+id/placenameView"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/placenameView"
+        app:layout_constraintVertical_bias="0.614"
+        android:importantForAutofill="no" tools:targetApi="o"/>
+
+    <Button
+        android:id="@+id/findButton"
+        android:layout_width="285dp"
+        android:layout_height="36dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="24dp"
+        android:layout_marginEnd="24dp"
+        android:layout_marginBottom="24dp"
+        android:background="@drawable/round_button"
+        android:text="@string/find_food"
+        android:textAppearance="@style/TextAppearance.AppCompat.Widget.ActionMode.Subtitle"
+        android:textColor="@android:color/background_light"
+        app:layout_constraintBottom_toBottomOf="@+id/placenameView"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/placenameView"
+        app:layout_constraintVertical_bias="0.937" />
+
+
+</android.support.constraint.ConstraintLayout>

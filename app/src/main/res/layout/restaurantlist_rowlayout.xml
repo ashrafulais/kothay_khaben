@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:padding="10dp">
+
+    <android.support.v7.widget.CardView
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_weight="15"
+        app:cardCornerRadius="0dp"
+        app:cardElevation="0dp">
+
+        <ImageView
+            android:id="@+id/imageId"
+            android:layout_width="79dp"
+            android:layout_height="79dp"
+            android:contentDescription="@string/app_name"
+            android:scaleType="centerInside"
+            app:srcCompat="@drawable/kothay_khaben_text" />
+
+    </android.support.v7.widget.CardView>
+
+    <android.support.v7.widget.CardView
+        android:layout_width="240dp"
+        android:layout_height="match_parent"
+        android:layout_weight="80"
+        app:cardElevation="1dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginStart="5dp"
+            android:layout_marginTop="2dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/headId"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/varela"
+                android:text="@string/app_name"
+                android:textColor="@color/colorPrimaryDark"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/descriptionId"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:fontFamily="@font/varela"
+                android:text="@string/loremipsum"
+                android:textSize="12sp" />
+
+        </LinearLayout>
+
+    </android.support.v7.widget.CardView>
+
+    <android.support.v7.widget.CardView
+        android:layout_width="61dp"
+        android:layout_height="match_parent"
+        android:layout_weight="5"
+        app:cardCornerRadius="0dp"
+        app:cardElevation="0dp">
+
+        <Button
+            android:id="@+id/resSocialLinkBtn"
+            style="@style/Widget.AppCompat.Button.Borderless"
+            android:layout_width="56dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="@string/icon_link"
+            android:textColor="#9507FA"
+            android:textSize="22sp" />
+    </android.support.v7.widget.CardView>
+
+</LinearLayout>

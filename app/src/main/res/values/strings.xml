@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">Kothay Khaben</string>
+    <string name="hello_world">Hello World</string>
+    <string name="find_food">Find Food</string>
+    <string name="areaname">Area name, like: Mirpur</string>
+    <string name="restaurant_name">Restaurant Name</string>
+
+
+    <string name="delivery">"Delivery"</string>
+    <string name="pickup">"Pickup"</string>
+    <string name="icon_link">🔗</string>
+
+    <string name="loremipsum">Lorem ipsum dollor sit amet. Ipsum dollor sit amet. Ipsum dollor sit amet.</string>
+</resources>
