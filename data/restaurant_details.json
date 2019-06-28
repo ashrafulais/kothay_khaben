@@ -1,132 +1,26 @@
 {
   "Dhanmondi": [
     {
-      "resId": "105",
-      "resName": "Burger King Dhanmondi",
-      "resLocation": "Plot-43(New), Road-2A (Satmasjid Road), Dhanmondi Dhaka",
-      "resImage": "https://i.postimg.cc/ydXqT6HP/14725663-1161923200520804-452727300621879891-n.jpg",
-      "resFbLink": "https://www.facebook.com/BurgerKingBangladesh/",
+      "resId": "100",
+      "resName": "PizzaBurg Mirpur",
+      "resLocation": "Section:2 , Block: A, Avenue:1 , House: 12/1, Dhaka 1216",
+      "resImage": "https://i.imgur.com/KAqCbq6.jpg",
+      "resFbLink": "https://www.facebook.com/pizzaburgbd/",
       "resRating": 4.5,
       "foodMenu": {
-        "910": {
-          "foodName": "Crushers",
+        "900": {
+          "foodName": "Pizza",
           "foodRating": 4.5
         },
-        "911": {
-          "foodName": "Burgers",
+        "901": {
+          "foodName": "Burger",
           "foodRating": 4.2
         }
       }
-    },
-    {
-      "resId": "106",
-      "resName": "A and W Dhanmondi",
-      "resLocation": "House: 39/C, Road: 14/A, 1st Floor, Shankar, Dhanmondi, Dhaka-1209",
-      "resImage": "https://i.postimg.cc/G3Gx3MPv/12036753-416450858545699-5035763461566146677-n.jpg",
-      "resFbLink": "https://www.facebook.com/AWDhanmondi/",
-      "resRating": 4.5,
-      "foodMenu": {
-        "912": {
-          "foodName": "Root Beer",
-          "foodRating": 4.5
-        },
-        "913": {
-          "foodName": "Burgers",
-          "foodRating": 4.2
-        }
-      }
-    },
-    {
-      "resId": "107",
-      "resName": "Chatime Dhanmondi ",
-      "resLocation": "Level-4, House: 67 (new), Navana GH Heights, Dhanmondi-1209",
-      "resImage": "https://i.postimg.cc/Qd2MMqJW/29572794-2103973019889764-5978912498325648298-n.png",
-      "resFbLink": "https://www.facebook.com/chatimebd/",
-      "resRating": 4.5,
-      "foodMenu": {
-        "914": {
-          "foodName": "Shakes",
-          "foodRating": 4.5
-        },
-        "915": {
-          "foodName": "Crushers & Smoothies",
-          "foodRating": 4.2
-        }
-      }
-    },
-     {
-      "resId": "108",
-      "resName": "Pinewood Cafe N' Restaurant",
-      "resLocation": "House-19, Road-12(old-31)Dhanmondi R/A .Dhaka (near Metro Shopping Mall)Dhaka",
-      "resImage": "https://i.postimg.cc/cC3S2pP9/13062020-609962479169650-6976221072134087522-n.jpg",
-      "resFbLink": "https://www.facebook.com/pinewoodcafebd/",
-      "resRating": 4.5,
-      "foodMenu": {
-        "916": {
-          "foodName": "Set Menu",
-          "foodRating": 4.5
-        },
-        "917": {
-          "foodName": "Steak",
-          "foodRating": 4.2
-        }
-      }
-    },
-    {
-      "resId": "109",
-      "resName": "The Manhattan FISH MARKET",
-      "resLocation":"754/B,Sat Masjid Road, Dhanmondi R/A,Dhaka, Bangladesh 1209",
-      "resImage": "https://i.postimg.cc/Xv5kZQSM/11052017-940133732720781-4147168767199545417-n.jpg",
-      "resFbLink": "https://www.facebook.com/MFMBGD/",
-      "resRating": 4.5,
-      "foodMenu": {
-        "918": {
-          "foodName": "Set Menu",
-          "foodRating": 4.5
-        },
-        "919": {
-          "foodName": "Seafood",
-          "foodRating": 4.2
-        }
-      }
-    },
-     {
-      "resId": "110",
-      "resName": "Takeout Dhanmondi",
-      "resLocation":"736 Rangs KB Square, Level - 3, Road - 9/a, Satmosjid Road, Dhanmondi,Dhaka, Bangladesh 1209",
-      "resImage": "https://i.postimg.cc/zDyK3xnx/11045493-860905744002996-291985394569351124.jpg",
-      "resFbLink": "https://www.facebook.com/bdtakeout",
-      "resRating": 4.5,
-      "foodMenu": {
-        "920": {
-          "foodName": "Burgers",
-          "foodRating": 4.5
-        },
-        "921": {
-          "foodName": "Shakes & Fries",
-          "foodRating": 4.2
-        }
-      }
-    },
-    {
-      "resId": "111",
-      "resName": "The Pit Grill",
-      "resLocation":"House # 105, Road No # 9A, Dhanmondi,Dhaka, Bangladesh 1205",
-      "resImage" :"https://i.postimg.cc/rwwrXgFG/10686754-457398001064819-6250887427237904549-n.jpg",
-      "resFbLink": "https://www.facebook.com/thepitgrillsteaks/",
-      "resRating": 4.5,
-      "foodMenu": {
-        "921": {
-          "foodName": "Steak",
-          "foodRating": 4.5
-        },
-        "922": {
-          "foodName": "Shakes & Fries",
-          "foodRating": 4.2
-        }
-      }
-    }
+    } 
+  
   ],
+    
   "Mirpur": [
     {
       "resId": "100",
