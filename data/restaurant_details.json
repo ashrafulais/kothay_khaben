@@ -1,97 +1,4 @@
 {
-  "Mirpur": [
-    {
-      "resId": "100",
-      "resName": "PizzaBurg Mirpur",
-      "resLocation": "Section:2 , Block: A, Avenue:1 , House: 12/1, Dhaka 1216",
-      "resImage": "https://i.imgur.com/KAqCbq6.jpg",
-      "resFbLink": "https://www.facebook.com/pizzaburgbd/",
-      "resRating": 4.5,
-      "foodMenu": {
-        "900": {
-          "foodName": "Pizza",
-          "foodRating": 4.5
-        },
-        "901": {
-          "foodName": "Burger",
-          "foodRating": 4.2
-        }
-      }
-    },
-    {
-      "resId": "101",
-      "resName": "Amar Tong",
-      "resLocation": "Opposite to, Commerce College Road, Dhaka 1216",
-      "resImage": "https://i.imgur.com/L3ZSGhS.jpg",
-      "resFbLink": "https://www.facebook.com/amartongbd/",
-      "resRating": 4.5,
-      "foodMenu": {
-        "902": {
-          "foodName": "Paji Pasta",
-          "foodRating": 4.4
-        },
-        "903": {
-          "foodName": "Hamba Bhunaa",
-          "foodRating": 4.1
-        }
-      }
-    },
-    {
-      "resId": "102",
-      "resName": "Madchef Mirpur",
-      "resLocation": "2nd Floor, Plot- 13, Road- 1, Senpara Porbota, Section - 10",
-      "resImage": "https://i.postimg.cc/Vs3qYZRw/49211221-2281401105436740-4570375262037868544-n.png",
-      "resFbLink": "https://www.facebook.com/Madchef-362573744227883",
-      "resRating": 3.9,
-      "foodMenu": {
-        "904": {
-          "foodName": "Burgers",
-          "foodRating": 4.4
-        },
-        "905": {
-          "foodName": "Fries",
-          "foodRating": 4.1
-        }
-      }
-    },
-    {
-      "resId": "103",
-      "resName": "Gaggan Food",
-      "resLocation": "Shop- 17-18, Sher-e-Bangla National Outer Stadium, Mirpur- 2, Dhaka 1216",
-      "resImage": "https://i.imgur.com/pWDHvLw.png",
-      "resFbLink": "https://www.facebook.com/gagganfood/",
-      "resRating": 3.9,
-      "foodMenu": {
-        "906": {
-          "foodName": "Kashmiri Faluda",
-          "foodRating": 3.9
-        },
-        "907": {
-          "foodName": "Special Pasta",
-          "foodRating": 4.4
-        }
-      }
-    },
-    {
-      "resId": "104",
-      "resName": "Rabbani Hotel & Restaurant",
-      "resLocation": "House - 55, Avenue - 1, Section - 10, Main Road, 11 Kacha Bazar, Dhaka 1216",
-      "resImage": "https://i.imgur.com/2OOsNXD.jpg",
-      "resFbLink": "https://www.facebook.com/golammustafa798.com.net/",
-      "resRating": 4,
-      "foodMenu": {
-        "908": {
-          "foodName": "Rabbani Delicious Biryani",
-          "foodRating": 4.2
-        },
-        "909": {
-          "foodName": "Special Halim",
-          "foodRating": 4.6
-        }
-      }
-    }
-  ],
-
   "Dhanmondi": [
     {
       "resId": "105",
@@ -216,6 +123,98 @@
         "922": {
           "foodName": "Shakes & Fries",
           "foodRating": 4.2
+        }
+      }
+    }
+  ],
+  "Mirpur": [
+    {
+      "resId": "100",
+      "resName": "PizzaBurg Mirpur",
+      "resLocation": "Section:2 , Block: A, Avenue:1 , House: 12/1, Dhaka 1216",
+      "resImage": "https://i.imgur.com/KAqCbq6.jpg",
+      "resFbLink": "https://www.facebook.com/pizzaburgbd/",
+      "resRating": 4.5,
+      "foodMenu": {
+        "900": {
+          "foodName": "Pizza",
+          "foodRating": 4.5
+        },
+        "901": {
+          "foodName": "Burger",
+          "foodRating": 4.2
+        }
+      }
+    },
+    {
+      "resId": "101",
+      "resName": "Amar Tong",
+      "resLocation": "Opposite to, Commerce College Road, Dhaka 1216",
+      "resImage": "https://i.imgur.com/L3ZSGhS.jpg",
+      "resFbLink": "https://www.facebook.com/amartongbd/",
+      "resRating": 4.5,
+      "foodMenu": {
+        "902": {
+          "foodName": "Paji Pasta",
+          "foodRating": 4.4
+        },
+        "903": {
+          "foodName": "Hamba Bhunaa",
+          "foodRating": 4.1
+        }
+      }
+    },
+    {
+      "resId": "102",
+      "resName": "Madchef Mirpur",
+      "resLocation": "2nd Floor, Plot- 13, Road- 1, Senpara Porbota, Section - 10",
+      "resImage": "https://i.postimg.cc/Vs3qYZRw/49211221-2281401105436740-4570375262037868544-n.png",
+      "resFbLink": "https://www.facebook.com/Madchef-362573744227883",
+      "resRating": 3.9,
+      "foodMenu": {
+        "904": {
+          "foodName": "Burgers",
+          "foodRating": 4.4
+        },
+        "905": {
+          "foodName": "Fries",
+          "foodRating": 4.1
+        }
+      }
+    },
+    {
+      "resId": "103",
+      "resName": "Gaggan Food",
+      "resLocation": "Shop- 17-18, Sher-e-Bangla National Outer Stadium, Mirpur- 2, Dhaka 1216",
+      "resImage": "https://i.imgur.com/pWDHvLw.png",
+      "resFbLink": "https://www.facebook.com/gagganfood/",
+      "resRating": 3.9,
+      "foodMenu": {
+        "906": {
+          "foodName": "Kashmiri Faluda",
+          "foodRating": 3.9
+        },
+        "907": {
+          "foodName": "Special Pasta",
+          "foodRating": 4.4
+        }
+      }
+    },
+    {
+      "resId": "104",
+      "resName": "Rabbani Hotel & Restaurant",
+      "resLocation": "House - 55, Avenue - 1, Section - 10, Main Road, 11 Kacha Bazar, Dhaka 1216",
+      "resImage": "https://i.imgur.com/2OOsNXD.jpg",
+      "resFbLink": "https://www.facebook.com/golammustafa798.com.net/",
+      "resRating": 4,
+      "foodMenu": {
+        "908": {
+          "foodName": "Rabbani Delicious Biryani",
+          "foodRating": 4.2
+        },
+        "909": {
+          "foodName": "Special Halim",
+          "foodRating": 4.6
         }
       }
     }
