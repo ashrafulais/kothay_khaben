@@ -1,23 +1,23 @@
 {
   "Dhanmondi": [
     {
-      "resId": "100",
-      "resName": "PizzaBurg Mirpur",
-      "resLocation": "Section:2 , Block: A, Avenue:1 , House: 12/1, Dhaka 1216",
-      "resImage": "https://i.imgur.com/KAqCbq6.jpg",
-      "resFbLink": "https://www.facebook.com/pizzaburgbd/",
+      "resId": "105",
+      "resName": "Burger King Dhanmondi",
+      "resLocation": "Plot-43(New), Road-2A (Satmasjid Road), Dhanmondi Dhaka",
+      "resImage": "https://i.postimg.cc/ydXqT6HP/14725663-1161923200520804-452727300621879891-n.jpg",
+      "resFbLink": "https://www.facebook.com/BurgerKingBangladesh/",
       "resRating": 4.5,
       "foodMenu": {
-        "900": {
-          "foodName": "Pizza",
+        "910": {
+          "foodName": "Crushers",
           "foodRating": 4.5
         },
-        "901": {
-          "foodName": "Burger",
+        "911": {
+          "foodName": "Burgers",
           "foodRating": 4.2
         }
       }
-    } 
+    }
   
   ],
     
