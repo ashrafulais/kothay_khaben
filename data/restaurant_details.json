@@ -35,6 +35,24 @@
           "foodRating": 4.1
         }
       }
+    },
+    {
+      "resId": "101",
+      "resName": "Madchef Mirpur",
+      "resLocation": "2nd Floor, Plot- 13, Road- 1, Senpara Porbota, Section - 10",
+      "resImage": "https://i.postimg.cc/Vs3qYZRw/49211221-2281401105436740-4570375262037868544-n.png",
+      "resFbLink": "https://www.facebook.com/Madchef-362573744227883",
+      "resRating": 3.9,
+      "foodMenu": {
+        "902": {
+          "foodName": "Burgers",
+          "foodRating": 4.4
+        },
+        "903": {
+          "foodName": "Fries",
+          "foodRating": 4.1
+        }
+      }
     }
   ]
 }
