@@ -27,12 +27,13 @@ import com.google.gson.Gson;
 
 public class RestaurantMenuActivity extends AppCompatActivity {
 
-    private String url = "https://raw.githubusercontent.com/ashrafulais/kothay_khaben/master/data/restaurant_details.json";
+    //private String url = "https://raw.githubusercontent.com/ashrafulais/kothay_khaben/master/data/restaurant_details.json";
+    private String url = "https://api.myjson.com/bins/jk76b";
     private RecyclerView recyclerView;
     private FoodMenuAdapter myAdapter;
     private List<MyItem> foodItems = new ArrayList<>();
     private ProgressDialog progressDialogue;
-    private String resid;
+    private String resid, res_area;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -66,10 +67,11 @@ public class RestaurantMenuActivity extends AppCompatActivity {
                 progressDialogue.dismiss();
 
                 try {
+                    res_area = getIntent().getStringExtra("RESTAURANT_AREA");
 
                     JSONObject jsonObject = new JSONObject(response);
                     //Log.d("Debug", "JSON OBJECT:---------------------------------- " + jsonObject.toString());
-                    JSONArray array = jsonObject.getJSONArray("Mirpur");
+                    JSONArray array = jsonObject.getJSONArray(res_area);
 
                     //Log.d("Debug", "ARRAY LENGTH:---------------------------------- " + array.getBoolean(0));
 

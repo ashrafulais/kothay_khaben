@@ -33,7 +33,8 @@ public class RestaurantListActivity extends AppCompatActivity {
     //previous: https://api.myjson.com/bins/d412n
     //updated with menus and ratings: https://api.myjson.com/bins/udlm7
 
-    private String url = "https://raw.githubusercontent.com/ashrafulais/kothay_khaben/master/data/restaurant_details.json";
+    //private String url = "https://raw.githubusercontent.com/ashrafulais/kothay_khaben/master/data/restaurant_details.json";
+    private String url = "https://api.myjson.com/bins/jk76b";
     private RecyclerView recyclerView;
     private MyAdapter myAdapter;
     private List<MyItem> listItems;
@@ -59,11 +60,13 @@ public class RestaurantListActivity extends AppCompatActivity {
         recyclerView.addOnItemTouchListener(new RecyclerSetOnItemClickListener(this, new RecyclerSetOnItemClickListener.OnItemClickListener() {
             @Override
             public void onItemClick(View view, final int position) {
-                String name = listItems.get(position).getResId();
+                String rest_id = listItems.get(position).getResId();
+                String rest_loc = placeName2;
                 //final String socialLink = listItems.get(position).getResLink();
 
                 Intent intentTour = new Intent(RestaurantListActivity.this, RestaurantMenuActivity.class);
-                intentTour.putExtra("RESTAURANT_ID", name);
+                intentTour.putExtra("RESTAURANT_ID", rest_id);
+                intentTour.putExtra("RESTAURANT_AREA", rest_loc);
                 startActivity(intentTour);
 
             }
@@ -90,7 +93,7 @@ public class RestaurantListActivity extends AppCompatActivity {
                     //Log.d("Debug", "JSON OBJECT:---------------------------------- " + jsonObject.toString());
                     JSONArray array = jsonObject.getJSONArray(placeName2);
 
-                    //Log.d("Debug", "ARRAY LENGTH:---------------------------------- " + array.getBoolean(0));
+                    //Log.d("Debug", "ARRAY LENGTH:---------------------------------- " + placeName2);
 
                     for(int i=0; i<array.length(); i++) {
 
