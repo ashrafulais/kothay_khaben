@@ -1,2 +1,2 @@
 # kothay_khaben
-This app gives you some good restaurant list based on your given location.
+The main purpose of this app, is to find restaurants nearby user's location & also user can order food from their desired restaurant.
